@@ -1,0 +1,46 @@
+.container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigth {
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+.left {
+    align-items: center;
+    justify-content: space-around;
+    max-width: 400px;
+    min-width: 300px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.69);
+}
+
+.logo {
+    flex-grow: 0;
+    flex-direction: column-reverse;
+    width: 180px;
+    height: 350px;
+    background-image: url('project://database/Assets/Sprites/GUI.png?fileID=21300088&guid=1eaee135ce037439d925cee5e41ce026&type=3#GUI_51');
+    align-self: center;
+    margin-top: 25px;
+}
+
+.buttons {
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+}
+
+.footer {
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.button_menu {
+}
